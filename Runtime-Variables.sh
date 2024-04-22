@@ -13,3 +13,7 @@ read -s Username
 echo "Enter the password"
 
 read -s Password
+
+#To view what user have entered
+
+echo "Name : $Username , Password : $Password"
