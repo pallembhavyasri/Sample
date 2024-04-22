@@ -25,7 +25,7 @@ fi
 
 
 dnf install mysql -y 
-Validate $? "Installing Mysql"
+Validate $?
 
 
 
