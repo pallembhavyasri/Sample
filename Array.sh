@@ -7,4 +7,4 @@
 
 Makeupbrands=("MAC" "ELF" "NARS" "RAREBEAUTY")
 
-echo "First Brand is : ${Makeup brands[0]}"
+echo "First Brand is : ${Makeupbrands[0]}"
