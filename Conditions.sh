@@ -5,7 +5,8 @@
 
 NUM=$1
 
-if [ $NUM%2 -eq 0 ]
+RES=$(($NUM%2))
+if [ $RES -eq 0 ]
 then
     echo "Number is even"
 else 
