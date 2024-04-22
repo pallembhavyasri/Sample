@@ -8,4 +8,4 @@
 Makeupbrands=("MAC" "ELF" "NARS" "RAREBEAUTY")
 
 echo "First Brand is : ${Makeupbrands[0]}"
-echo "Print all the brands : ${Makeupbrands[@]}
+echo "Print all the brands : ${Makeupbrands[@]}"
