@@ -6,21 +6,21 @@
 RTO=$(id -u)
 
 Validate(){
-    if [ $1 -ne 0 ]
+    if [ $1 -eq 0 ]
     then 
+        echo "Success"
+    else    
         echo "Failure"
         exit 1
-    else    
-        echo "Success"
     fi
 }
 
-if [ $RTO -ne 0 ]
+if [ $RTO -eq 0 ]
 then 
-    echo "run with root user"
-    exit 1 #in shell script we need to check manually 
+    echo "user is root" 
 else
-    echo "user is root " 
+    echo "run with root user"
+    exit 1 #in shell script we need to check manually  
 fi
 
 
