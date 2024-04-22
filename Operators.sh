@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#operatore like +,-,%,
+#operatore like +(add),-(sub),*(Mul),/(divison),%(Modulus),
 
 #Taking arugument values 
 NUM1=$1
@@ -21,10 +21,12 @@ SUB=$(($NUM1-$NUM2))
 
 echo "The subraction of $NUM1 & $NUM2 is : $SUB"
 
-#divison
+#Moduls : gives the remainder
 DIV=$(($NUM1%$NUM2))
 
 echo "The divison of $NUM1 & $NUM2 is : $DIV"
+
+
 
 
 
