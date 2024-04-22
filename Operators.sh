@@ -9,7 +9,6 @@ NUM2=$2
 
 #addition
 SUM=$(($NUM1+$NUM2))
-#SUB=$(($NUM1-$NUM2))
 
 echo "The sum of $NUM1 & $NUM2 is : $SUM"
 
@@ -17,9 +16,17 @@ echo "The sum of $NUM1 & $NUM2 is : $SUM"
 #eg: 1 sai --- it will give o/p as 1 
 #eg: sai pavan -- it will give the o/p as 0  
 
+#subtraction
 SUB=$(($NUM1-$NUM2))
 
 echo "The subraction of $NUM1 & $NUM2 is : $SUB"
+
+#divison
+DIV=$(($NUM1%$NUM2))
+
+echo "The subraction of $NUM1 & $NUM2 is : $DIV"
+
+
 
 
 
