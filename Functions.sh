@@ -14,12 +14,12 @@ Validate(){
     fi
 }
 
-if [ $RTO -eq 0 ]
+if [ $RTO -ne 0 ]
 then 
-    echo " you are root user"
-else
     echo "run with root user"
     exit 1 #in shell script we need to check manually 
+else
+    echo "user is root " 
 fi
 
 
