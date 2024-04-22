@@ -24,7 +24,8 @@ echo "The subraction of $NUM1 & $NUM2 is : $SUB"
 #divison
 DIV=$(($NUM1%$NUM2))
 
-echo "The subraction of $NUM1 & $NUM2 is : $DIV"
+echo "The divison of $NUM1 & $NUM2 is : $DIV"
+
 
 
 
