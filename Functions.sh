@@ -6,7 +6,7 @@
 RTO=$(id -u)
 
 Validate(){
-    if ($0 -eq 0 )
+    if [ $0 -eq 0 ]
     then 
         echo "Success"
     else    
@@ -14,7 +14,7 @@ Validate(){
     fi
 }
 
-if( $RTO -eq 0 )
+if [ $RTO -eq 0 ]
 then 
     echo " you are root user"
 else
