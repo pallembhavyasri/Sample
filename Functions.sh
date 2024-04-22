@@ -19,7 +19,7 @@ then
     echo "user is root" 
 else
     echo "run with root user"
-    exit 1 #in shell script we need to check manually  
+    exit 1 #in shell script we need to check manually, we can give any number other than 0 
 fi
 
 
