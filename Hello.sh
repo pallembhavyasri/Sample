@@ -8,4 +8,4 @@ echo -e "\e[33m Hello World"
 
 #to change the colours for word wise
 
-echo -e "\e[31mHello \e[32World"
+echo -e "\e[31mHello \e[32mWorld"
