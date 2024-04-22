@@ -9,6 +9,7 @@ Validate(){
     if [ $1 -ne 0 ]
     then 
         echo "Failure"
+        exit 1
     else    
         echo "Success"
     fi
