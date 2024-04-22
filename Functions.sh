@@ -6,11 +6,11 @@
 RTO=$(id -u)
 
 Validate(){
-    if [ $0 -eq 0 ]
+    if [ $1 -ne 0 ]
     then 
-        echo "Success"
-    else    
         echo "Failure"
+    else    
+        echo "Success"
     fi
 }
 
