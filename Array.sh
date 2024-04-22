@@ -5,6 +5,6 @@
 
 #example
 
-Makeup brands=("MAC" "ELF" "NARS" "RAREBEAUTY")
+Makeupbrands=("MAC" "ELF" "NARS" "RAREBEAUTY")
 
 echo "First Brand is : ${Makeup brands[0]}"
