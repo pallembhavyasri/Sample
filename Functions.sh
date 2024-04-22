@@ -9,6 +9,8 @@ Validate(){
     if [ $1 -eq 0 ]
     then 
         echo "Success"
+    else 
+        echo "$2...Failure"
     fi
 }
 
@@ -22,7 +24,7 @@ fi
 
 
 dnf install mysql -y 
-Validate $?
+Validate $? "Installing Mysql"
 
 
 
