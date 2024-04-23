@@ -3,7 +3,7 @@
 #Let us see the functions use 
 #functions come into picture if there is repetated code 
 
-RTO=$(id -u)
+USER=$(id -u)
 
 Validate(){
     if [ $1 -eq 0 ]
