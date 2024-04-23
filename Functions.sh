@@ -14,7 +14,7 @@ Validate(){
     fi
 }
 
-if [ $RTO -eq 0 ]
+if [ $USER -eq 0 ]
 then 
     echo "user is root" 
 else
